@@ -159,3 +159,12 @@ main{
     margin: 24px 144px 48px;
 }
 
+/* Video section styling */
+/* .video-area{
+    padding: 48px;
+} */
+
+.video-section{
+    border: 2px solid salmon;
+    padding: 48px;
+}
