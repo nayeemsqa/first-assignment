@@ -18,7 +18,49 @@
     padding: 21px 24px 21px 24px;
     border-radius: 8px;
     background: rgb(13, 19, 33);
+    border: none;
 }
+
+.btn-secondary{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px 12px 20px;
+}
+
+.titles{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+
+}
+
+.titles-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+}
+
+/* Hero section styling */
 
 .header{
     background-image: url("/assets/Hero-bg.png");
@@ -39,6 +81,8 @@
     font-size: 48px;
     line-height: 68px;
     letter-spacing: 0%;
+    margin-top: 32px;
+    margin: 0px 221px;
 }
 .hero-subtitle{
     color: rgb(13, 19, 33);
@@ -49,3 +93,69 @@
     letter-spacing: 0%;
     margin: 24px 294px 32px;
 }
+
+/* Why Web Development section styling */
+
+.web-development-bg-colour{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.secondary-images-1{
+    width: 259px;
+}
+.secondary-images-2{
+    width: 223px;
+}
+.secondary-images-3{
+    width: 206px;
+}
+
+.subtitles-description{
+    margin: 24px 0px 48px 0px;
+}
+
+.web-development{
+    padding: 80px 97px;
+    margin-top: 74px;
+}
+
+.development-item{
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    /* border: 2px solid black; */
+    padding: 48px;
+    display: flex;
+    margin-bottom: 32px;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+.development-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.development-subtitle-descriptions{
+    margin: 16px 0px 32px;
+}
+
+
+/* Inspiration section styling */
+
+.inspiration{
+    margin: 88px 144px 48px;
+    border: 2px solid turquoise;
+}
+
+.inspiration-subtitle{
+    margin: 24px 144px 48px;
+}
+
