@@ -243,3 +243,132 @@ main{
     background: rgba(255, 223, 0, 0.05);
     /* background: red; */
 }
+
+/* Support section styling */
+
+.bg-support-color{
+    background-image: url("/assets/handshake.jpg");
+    object-fit: contain;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+}
+
+.support-title{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    /* margin: 64px;  */
+    margin-top: 64px;
+    padding-top: 64px;
+}
+
+.support-subtitle{
+    margin:16px 0px 32px;
+}
+
+.btn-submit{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 17px 20px 17px 20px;
+    border: none;
+}
+
+.btn-submit:hover{
+    cursor: pointer;
+}
+
+.content-input-button{
+    padding-bottom: 64px;
+    /* gap: 200px; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 16px;
+}
+
+.content-input-button input[type="text"]{
+    /* height: 57px; */
+    width: 548px;
+    /* box-sizing: border-box; */
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+.input-field{
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    padding: 19px 20px 19px 20px;
+}
+
+/* Footer styling */
+/* .footer-bg-colour{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+} */
+
+.footer{
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    padding: 32px 380px;
+    margin-top: 80px; */
+}
+
+/* nav ul img{
+    margin-left: 24px;
+} */
+
+.footer-section{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    margin-top: 80px;
+}
+
+.footer-title{
+    font-family: Azeret Mono;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0%;
+}
+
+.footer-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 32px 80px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul img{
+    margin-left: 24px;
+}
+
+
+
+
+
