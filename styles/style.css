@@ -68,7 +68,7 @@ main{
 /* Hero section styling */
 
 .header{
-    background-image: url("./assets/Hero-bg.png");
+    background-image: url("../assets/Hero-bg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -280,7 +280,7 @@ main{
 /* Support section styling */
 
 .bg-support-color{
-    background-image: url("./assets/handshake.jpg");
+    background-image: url("../assets/handshake.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
