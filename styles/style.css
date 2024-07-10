@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -68,8 +69,9 @@ main{
 
 .header{
     background-image: url("/assets/Hero-bg.png");
-    /* background-repeat: no-repeat; */
-    /* background-position: center; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hero{
@@ -119,7 +121,14 @@ main{
 }
 
 .subtitles-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
     margin: 24px 0px 48px 0px;
+    
 }
 
 .web-development{
@@ -171,9 +180,22 @@ main{
     padding: 48px;
 } */
 
+.video-container{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+
 .video-section{
-    border: 2px solid salmon;
-    padding: 48px;
+    width: 1076px;
+    height: 550px;
+    padding: 32px;
+    /* overflow: hidden; */
+}
+
+.video-border{
+    border-radius: 16px;
+    overflow: hidden;
 }
 
 /* Current target section styling */
@@ -255,6 +277,9 @@ main{
 
 .bg-support-color{
     background-image: url("/assets/handshake.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     object-fit: contain;
     border-radius: 16px;
     background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
@@ -273,6 +298,12 @@ main{
 }
 
 .support-subtitle{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
     margin:16px 0px 32px;
 }
 
@@ -357,8 +388,9 @@ main{
 .footer-items{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 32px 80px;
+    justify-content: space-between;
+    padding: 32px 190px;
+    /* gap: 30px; */
 }
 
 nav ul{
